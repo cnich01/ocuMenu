@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#002B4E"
     tools:context=".BreakfastActivity">
 
     <Button
@@ -23,6 +24,7 @@
         android:layout_marginStart="58dp"
         android:layout_marginTop="94dp"
         android:layout_marginEnd="59dp"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/breakfastBackBtn" />
@@ -35,6 +37,7 @@
         android:layout_marginTop="54dp"
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="208dp"
+        android:background="#FFFFFF"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

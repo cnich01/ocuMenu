@@ -4,7 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#002B4E"
     tools:context=".LunchActivity">
+
+    <Spinner
+        android:id="@+id/daySelectSpinner"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="54dp"
+        android:background="#FFFFFF"
+        android:forceDarkAllowed="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lunchBackBtn" />
+
+    <TextView
+        android:id="@+id/lunchTxt"
+        android:layout_width="282dp"
+        android:layout_height="277dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="208dp"
+        android:background="#FFFFFF"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daySelectSpinner" />
 
     <Button
         android:id="@+id/lunchBackBtn"
@@ -13,6 +44,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="20dp"
         android:text="Back"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
